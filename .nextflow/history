@@ -1,0 +1,28 @@
+2020-04-16 11:14:30	-	thirsty_stonebraker	-	d2d7ebab07334abe660887c37f42d43f	16aca600-bde4-4f28-be0d-bc04923e0cad	nextflow run main.nf -profile test,docker
+2020-04-16 11:15:13	-	infallible_lovelace	-	c08f0d3723eee4683c5f62b2df2cfa5c	22ec0654-0481-491d-85bf-e67107d6f998	nextflow run main.nf -profile test,docker
+2020-04-16 11:16:48	-	voluminous_hawking	-	e6277a46c0463077288aebc840a95ba6	02fb82a1-357c-4b71-ad45-0dca4cb04f6d	nextflow run main.nf -profile test,docker
+2020-04-16 11:17:33	7.4s	serene_fermat	ERR	dd22678c53c72dd1edb3aa1dbc6052bd	90e5428e-de6d-4225-a134-0b54ce1f0be1	nextflow run main.nf -profile test,docker
+2020-04-16 11:18:22	10s	small_watson	ERR	c5794342cdf8d05dd6a0296bbcd43235	66ee987d-3f25-43f3-9d7c-134056546642	nextflow run main.nf -profile test,docker
+2020-04-16 11:18:51	9.2s	soggy_swirles	ERR	c5794342cdf8d05dd6a0296bbcd43235	52c260b5-7172-4a6e-b8eb-5ba17c731bba	nextflow run main.nf -profile test,docker
+2020-04-16 11:19:50	5.8s	maniac_hamilton	ERR	9a8a8eb4d70a921338ec46f355c6128e	09f41a25-9cf5-4589-822c-2b2733dbfe04	nextflow run main.nf -profile test,docker
+2020-04-16 11:20:46	14.2s	magical_shockley	OK	40f9a880182c308e39b581c346a9049b	687b0665-a901-4cf6-982f-2e2fad7e8ede	nextflow run main.nf -profile test,docker
+2020-04-16 11:25:48	16s	distraught_hopper	OK	bf96e4791a4f134c1906e289a3df409d	c6e52af9-bc59-4b97-b973-8d6427d941a7	nextflow run main.nf -profile test,docker
+2020-04-16 11:26:40	16s	sleepy_cantor	OK	99d0e7613cd2bb8abbc4714272864445	9f6ef273-a62b-4f07-88ad-e3d112560972	nextflow run main.nf -profile test,docker
+2020-04-16 11:29:31	-	agitated_hawking	-	4b206a088359b541a774d7d64827ef23	b9d67396-0895-4fb3-8757-09875e2afed5	nextflow run main.nf -profile test,docker
+2020-04-16 11:33:42	-	gigantic_descartes	-	89b3135122a866378abf0cf486d34d24	f0435f21-ceae-49f0-abb7-853267fbedba	nextflow run main.nf -profile test,docker
+2020-04-16 11:35:45	-	sleepy_booth	-	db293d012433ff9d01a9745e36740cae	d1df6b90-e0eb-463a-b56d-18748d947abd	nextflow run main.nf -profile test,docker
+2020-04-16 13:50:32	-	crazy_monod	-	ca9015912886d908338676b00fe7d0f2	dfaf1adc-8364-44aa-af84-1e117bc86090	nextflow run main.nf -profile test,docker
+2020-04-16 13:51:38	17s	kickass_goodall	OK	312bfb6223a7c1946d7349d51044a9e0	c44b4204-71c6-4f52-bd28-03107c6218f7	nextflow run main.nf -profile test,docker
+2020-04-28 16:22:32	5m 26s	mad_agnesi	ERR	19cdfc46fe1ab2d66364f4e2bae3224f	8559d3a8-91a3-467b-92b6-778079519192	nextflow run main.nf -profile docker,test
+2020-04-28 22:29:17	12.9s	mighty_goodall	ERR	19cdfc46fe1ab2d66364f4e2bae3224f	d7c980bd-4678-4080-b88c-81be6809edb3	nextflow run main.nf -profile docker,test
+2020-04-28 22:30:15	1m 15s	amazing_faggin	OK	5d99eefd71e856d0ef6843b5707208d0	96bcd65d-db0c-40dc-96ba-6d53c6306c72	nextflow run main.nf -profile docker,test
+2020-04-28 22:32:23	17.3s	awesome_davinci	OK	b0d5a54ece1841a2a39ecc42ce6875ce	63c9725d-94ad-48f1-baef-9aeca3d0cb3c	nextflow run main.nf -profile docker,test
+2020-04-29 11:25:55	17.9s	boring_brahmagupta	ERR	b0d5a54ece1841a2a39ecc42ce6875ce	6eb8be9f-de7e-48f7-8b0e-5083634f4015	nextflow run main.nf -profile docker,test
+2020-05-07 10:54:56	24.7s	exotic_varahamihira	OK	b0d5a54ece1841a2a39ecc42ce6875ce	6eb8be9f-de7e-48f7-8b0e-5083634f4015	nextflow run main.nf -profile docker,test -resume
+2020-05-07 10:57:36	40s	angry_franklin	OK	6008b8a720fa0758bfef5f74bc63627d	6eb8be9f-de7e-48f7-8b0e-5083634f4015	nextflow run main.nf -profile docker,test -resume
+2020-05-07 10:59:25	38s	golden_mclean	OK	d15a080b55bc8c66c8f6e0093c30f33e	6eb8be9f-de7e-48f7-8b0e-5083634f4015	nextflow run main.nf -profile docker,test -resume
+2020-05-07 11:00:15	37.1s	pensive_newton	OK	c8e0cf61696f738f52985ca36d4cffdc	6eb8be9f-de7e-48f7-8b0e-5083634f4015	nextflow run main.nf -profile docker,test -resume
+2020-05-07 11:01:30	6.8s	marvelous_snyder	OK	1c4b90fa7883bf0bd72f4ee978ff5e32	6eb8be9f-de7e-48f7-8b0e-5083634f4015	nextflow run main.nf -profile docker,test -resume
+2020-05-07 11:07:05	38.5s	evil_ardinghelli	OK	267e544eda637c1a25ce706083d1297a	6eb8be9f-de7e-48f7-8b0e-5083634f4015	nextflow run main.nf -profile docker,test -resume
+2020-05-07 11:11:31	7.9s	nasty_monod	OK	151aee9ac9e42bfbe994801d6ce10d38	f37a2e2a-3e07-49f2-9ef3-94fd96610ec7	nextflow run main.nf -profile docker,test
+2020-05-07 11:12:55	32.3s	sleepy_ardinghelli	OK	3e566b1ac475ed37a17e3a2ce941df80	eb0d8d81-15d5-447e-b23b-496a13a39ee0	nextflow run main.nf -profile docker,test

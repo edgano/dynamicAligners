@@ -1,0 +1,34 @@
+
+# export PERL5LIB="/usr/share/perl5"
+# cp /tcoffee/t_coffee/src/*.pl /bin 
+# t_coffee -seq=/opt/sh3.fasta -protein_db=/opt/uniref50.fasta -blast_server=LOCAL -mode=psicoffee
+
+# ./bin/tc_generic_method.pl -infile=/opt/sh3.fasta -mode=profile_template -database=/opt/uniref50.fasta -method=blastp -outfile=test.fa -server=LOCAL
+# legacy_blast.pl blastpgp --path /bin -d docker/bin/database/uniref50.fasta -i docker/bin/data/sh3.fasta -o sh3.out -m7 -j1
+# legacy_blast.pl blastpgp -i /opt/sh3.fasta -d /opt/uniref50.fasta --path /bin -o outfile.out -m7 -j1
+
+
+# docker run -v /Users/edgargarriga/CBCRG/bin:/db -ti edgano/tcoffee:slave
+# t_coffee -seq=/db/sh3.fasta -protein_db=/db/uniref50.fasta -blast_server=LOCAL -mode=psicoffee
+
+# t_coffee -seq /db/sh3.fasta -mode psicoffee -blast_server LOCAL -protein_db /db/uniref50.fasta -psitrim 40
+# t_coffee -reg -reg_nseq 50 -reg_dynamic 1000000 -reg_method dynamic_msa -seq /db/sh3.fasta -blast_server LOCAL -protein_db /db/uniref50.fasta 
+
+
+# t_coffee -other_pg seq_reformat -in /db/foo.fa -action +seq2dnd mbed -output newick> foo.dnd
+
+#export TRASH_4_TCOFFEE='/tmp'
+
+#t_coffee -reg -reg_method famsa_msa -seq /db/foo.fa -reg_tree mbed -child_tree mbed -reg_nseq 10 -reg_homoplasy -outfile seatoxin.slave_align.10.FAMSA.with.codnd.tree.slave.mbed.aln 
+
+#t_coffee -reg -reg_method mafftfftns1_msa -seq /db/foo.fa -reg_tree codnd -child_tree mbed -reg_nseq 10 -reg_homoplasy -outfile seatoxin.slave_align.10.FAMSA.with.codnd.tree.slave.mbed.aln 
+
+#       template "slave_reg/slave_reg_${align_method}.sh"
+#        file("${id}.slave_align.${bucket_size}.${align_method}.with.${tree_method}.tree.slave.${slave_tree}.aln") \
+
+#famsa -gt import foo.dnd /db/foo.fa foo.aln 2>/dev/null
+
+
+#docker run -v /Users/edgargarriga/CBCRG/bin:/db -ti 1c55a08e479c
+
+#t_coffee -reg -reg_method mafftfftns1_msa -seq /db/test10.fa -reg_tree mbed -child_tree mbed -reg_nseq  -reg_homoplasy -outfile seatoxin.out
