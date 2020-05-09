@@ -144,7 +144,7 @@ RUN git clone https://github.com/refresh-bio/FAMSA.git && \
 # Install TCOFFEE
 RUN git clone https://github.com/cbcrg/tcoffee.git tcoffee && \
     cd tcoffee && \
-    git checkout 88e58f9c8f4dd0fdaad6b0f32c3186565bfa3cc3 && \
+    git checkout 9bec800b7d0c7a70cbac141ea33c0c411c46b595 && \
     cd t_coffee/src && \
     make t_coffee && \
     cp t_coffee /bin/.
@@ -172,7 +172,3 @@ ENV PERL5LIB '/usr/share/perl5:/tcoffee/perl/lib/perl5'
 RUN wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.10.0+-x64-linux.tar.gz && \
     tar xvf ncbi-blast-2.10.0+-x64-linux.tar.gz && \
     cp ncbi-blast-2.10.0+/bin/* /usr/bin/.
-
-# Install UNIREF50
-#RUN wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/uniref/uniref50/uniref50.fasta.gz && \
-#    gzip -d uniref50.fasta.gz

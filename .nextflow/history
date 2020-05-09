@@ -26,3 +26,4 @@
 2020-05-07 11:07:05	38.5s	evil_ardinghelli	OK	267e544eda637c1a25ce706083d1297a	6eb8be9f-de7e-48f7-8b0e-5083634f4015	nextflow run main.nf -profile docker,test -resume
 2020-05-07 11:11:31	7.9s	nasty_monod	OK	151aee9ac9e42bfbe994801d6ce10d38	f37a2e2a-3e07-49f2-9ef3-94fd96610ec7	nextflow run main.nf -profile docker,test
 2020-05-07 11:12:55	32.3s	sleepy_ardinghelli	OK	3e566b1ac475ed37a17e3a2ce941df80	eb0d8d81-15d5-447e-b23b-496a13a39ee0	nextflow run main.nf -profile docker,test
+2020-05-09 12:33:55	44.5s	peaceful_euclid	OK	fad7bc865e1d31c7b65774262727a505	831b0eb9-4f33-4157-8e89-f26a670104b2	nextflow run main.nf -profile test,docker
