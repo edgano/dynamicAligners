@@ -1,256 +1,0 @@
-inputfile = orig
-93 x 50 - 34 p
-picksize = 50
-groupsize = 1
-sueff_global = 0.100000
-inputfile = infile
-alloclen = 100 in main
-Gap Penalty = -1.53, +0.00, +0.00
-
-
-11x93 distance matrix
-1 / 11 2 / 11 3 / 11 4 / 11 5 / 11 6 / 11 7 / 11 8 / 11 9 / 11 10 / 11                 upgma       
-    0 / 11                      
-
-2x7 distance matrix
-1 / 2                 
-
-2x4 distance matrix
-1 / 2                 
-Leaf  1 / 93                
-Leaf  2 / 93                
-
-2x3 distance matrix
-1 / 2                 
-Leaf  3 / 93                
-Leaf  4 / 93                
-
-3x16 distance matrix
-1 / 3 2 / 3                 upgma       
-    0 / 3                      
-
-2x2 distance matrix
-1 / 2                 
-Leaf  5 / 93                
-Leaf  6 / 93                
-
-2x12 distance matrix
-1 / 2                 
-
-2x8 distance matrix
-1 / 2                 
-
-2x7 distance matrix
-1 / 2                 
-
-2x3 distance matrix
-1 / 2                 
-Leaf  7 / 93                
-Leaf  8 / 93                
-
-2x4 distance matrix
-1 / 2                 
-Leaf  9 / 93                
-
-2x3 distance matrix
-1 / 2                 
-Leaf  10 / 93                
-Leaf  11 / 93                
-Leaf  12 / 93                
-
-2x4 distance matrix
-1 / 2                 
-Leaf  13 / 93                
-
-2x3 distance matrix
-1 / 2                 
-Leaf  14 / 93                
-
-2x2 distance matrix
-1 / 2                 
-Leaf  15 / 93                
-Leaf  16 / 93                
-
-2x2 distance matrix
-1 / 2                 
-Leaf  17 / 93                
-Leaf  18 / 93                
-Leaf  19 / 93                
-
-3x7 distance matrix
-1 / 3 2 / 3                 upgma       
-    0 / 3                      
-
-2x2 distance matrix
-1 / 2                 
-Leaf  20 / 93                
-Leaf  21 / 93                
-
-2x3 distance matrix
-1 / 2                 
-
-2x2 distance matrix
-1 / 2                 
-Leaf  22 / 93                
-Leaf  23 / 93                
-Leaf  24 / 93                
-
-2x2 distance matrix
-1 / 2                 
-Leaf  25 / 93                
-Leaf  26 / 93                
-
-2x24 distance matrix
-1 / 2                 
-
-2x23 distance matrix
-1 / 2                 
-
-2x20 distance matrix
-1 / 2                 
-
-3x19 distance matrix
-1 / 3 2 / 3                 upgma       
-    0 / 3                      
-Leaf  27 / 93                
-Leaf  28 / 93                
-Leaf  29 / 93                
-Leaf  30 / 93                
-
-2x3 distance matrix
-1 / 2                 
-
-2x2 distance matrix
-1 / 2                 
-Leaf  31 / 93                
-Leaf  32 / 93                
-Leaf  33 / 93                
-Leaf  34 / 93                
-
-6x19 distance matrix
-1 / 6 2 / 6 3 / 6 4 / 6 5 / 6                 upgma       
-    0 / 6                      
-
-2x4 distance matrix
-1 / 2                 
-
-3x3 distance matrix
-1 / 3 2 / 3                 upgma       
-    0 / 3                      
-Leaf  35 / 93                
-Leaf  36 / 93                
-Leaf  37 / 93                
-Leaf  38 / 93                
-
-3x5 distance matrix
-1 / 3 2 / 3                 upgma       
-    0 / 3                      
-
-2x2 distance matrix
-1 / 2                 
-Leaf  39 / 93                
-Leaf  40 / 93                
-
-2x2 distance matrix
-1 / 2                 
-Leaf  41 / 93                
-Leaf  42 / 93                
-Leaf  43 / 93                
-Leaf  44 / 93                
-
-2x5 distance matrix
-1 / 2                 
-Leaf  45 / 93                
-Leaf  46 / 93                
-
-2x3 distance matrix
-1 / 2                 
-
-2x2 distance matrix
-1 / 2                 
-Leaf  47 / 93                
-Leaf  48 / 93                
-Leaf  49 / 93                
-Leaf  50 / 93                
-Leaf  51 / 93                
-
-2x2 distance matrix
-1 / 2                 
-Leaf  52 / 93                
-Leaf  53 / 93                
-
-3x11 distance matrix
-1 / 3 2 / 3                 upgma       
-    0 / 3                      
-
-2x7 distance matrix
-1 / 2                 
-
-3x6 distance matrix
-1 / 3 2 / 3                 upgma       
-    0 / 3                      
-
-2x2 distance matrix
-1 / 2                 
-Leaf  54 / 93                
-Leaf  55 / 93                
-Leaf  56 / 93                
-
-3x3 distance matrix
-1 / 3 2 / 3                 upgma       
-    0 / 3                      
-Leaf  57 / 93                
-Leaf  58 / 93                
-Leaf  59 / 93                
-Leaf  60 / 93                
-
-3x3 distance matrix
-1 / 3 2 / 3                 upgma       
-    0 / 3                      
-Leaf  61 / 93                
-Leaf  62 / 93                
-Leaf  63 / 93                
-Leaf  64 / 93                
-
-2x4 distance matrix
-1 / 2                 
-Leaf  65 / 93                
-
-2x3 distance matrix
-1 / 2                 
-Leaf  66 / 93                
-Leaf  67 / 93                
-Leaf  68 / 93                
-Done.
-
-
-
-----------------------------------------------------------------------------
-
-nseq = 93
-groupsize = 1, picksize=50
-The input sequences have been sorted so that similar sequences are close.
-The order of sequences has been changed according to estimated similarity.
-
-A guide tree is in the 'infile.tree' file.
-
-mafft --dpparttree might give a better result, although slow.
-mafft --fastaparttree is also available if you have fasta34.
-
-----------------------------------------------------------------------------
-splittbfast (aa) Version 7.397
-alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
-1 thread(s)
-
-
-Strategy:
- FFT-NS-PartTree-1 (Not tested.)
- ?
-
-If unsure which option to use, try 'mafft --auto input > output'.
-For more information, see 'mafft --help', 'mafft --man' and the mafft page.
-
-The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
-It tends to insert more gaps into gap-rich regions than previous versions.
-To disable this change, add the --leavegappyregion option.
-
